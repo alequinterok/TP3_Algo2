@@ -18,6 +18,8 @@ public:
     //Post: Devuelve el tema de la novela historica
     char* obtener_tema();
 
+    string obtener_tipo() override;
+
     // Pre: -
     // Post: Imprime por pantalla la informacion de la novela historica
     void mostrar();

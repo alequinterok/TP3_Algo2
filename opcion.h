@@ -15,6 +15,8 @@ using namespace std;
 #include "carga_escritores.h"
 #include "carga_lecturas.h"
 #include "cola.h"
+#include "grafo.h"
+
 const char SI = 's';
 const char NO = 'n';
 

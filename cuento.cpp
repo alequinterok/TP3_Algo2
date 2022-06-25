@@ -9,6 +9,10 @@ std::string Cuento::obtener_libro() {
     return libro;
 }
 
+string Cuento::obtener_tipo() {
+    return "CUENTO";
+}
+
 void Cuento::mostrar() {
     Lectura::mostrar();
     cout << "-Tipo: Cuento" << endl;

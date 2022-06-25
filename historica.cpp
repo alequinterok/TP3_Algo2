@@ -8,6 +8,10 @@ char* Historica::obtener_tema() {
     return tema;
 }
 
+string Historica::obtener_tipo() {
+    return "HISTORICA";
+}
+
 void Historica::mostrar() {
     Novela::mostrar();
     cout << " -Tema: " << tema << endl;

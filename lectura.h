@@ -54,6 +54,8 @@ public:
     // Post: Devuelve el genero de la lectura
     virtual int obtener_genero();
 
+    virtual string obtener_tipo();
+
     // Pre: -
     // Post: Le asigna true a leida
     void leer();

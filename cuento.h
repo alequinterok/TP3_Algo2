@@ -17,6 +17,8 @@ public:
     // Post: Devuelve el libro al que pertenece el cuento
     std::string obtener_libro();
 
+    string obtener_tipo() override;
+
     // Pre: -
     // Post: Imprime por pantalla la informacion del cuento
     void mostrar();

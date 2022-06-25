@@ -22,12 +22,11 @@ using namespace std;
 #include "listar.h"
 #include "cambia_dato.h"
 #include "quita_lectura.h"
+#include "carga_grafo.h"
+#include "orden_lecturas.h"
 
 const int PRIMER_OPCION = 1;
-const int ULTIMA_OPCION = 13;
-
-
-
+const int ULTIMA_OPCION = 14;
 
 
 class Menu {
@@ -36,6 +35,7 @@ private:
     Lista<Lectura>* lecturas;
     Diccionario* escritores;
     Cola* cola;
+    Grafo* grafo_lecturas;
     Opcion* opcion;
     Lista<Opcion>* opciones;
 

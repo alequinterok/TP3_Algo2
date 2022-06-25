@@ -8,6 +8,10 @@ int Novela::obtener_genero() {
     return genero;
 }
 
+string Novela::obtener_tipo() {
+    return "NOVELA";
+}
+
 void Novela::mostrar(){
     Lectura::mostrar();
     cout << "-Tipo: Novela" << endl;

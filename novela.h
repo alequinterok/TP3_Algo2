@@ -20,6 +20,8 @@ public:
     // Post: Devuelve el genero de la novela
     int obtener_genero() override;
 
+    string obtener_tipo() override;
+
     // Pre: -
     // Post: Imprime por pantalla la informaciòn de la novela
     void mostrar();

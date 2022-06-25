@@ -54,6 +54,10 @@ int Lectura::obtener_genero() {
     return -1;
 }
 
+string Lectura::obtener_tipo() {
+    return "";
+}
+
 void Lectura::leer() {
     leida = true;
 }

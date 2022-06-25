@@ -8,6 +8,10 @@ int Poema::obtener_versos() {
     return versos;
 }
 
+string Poema::obtener_tipo() {
+    return "P";
+}
+
 void Poema::mostrar() {
     Lectura::mostrar();
     cout << "-Tipo: Poema" << endl;

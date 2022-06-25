@@ -21,7 +21,8 @@ void Opcion::imprimir_opciones() {
     cout << "| 10) Listar las novelas de determinado género.                                     |"  << endl;
     cout << "| 11) Cola de lecturas no leidas ordenada por tiempo de lectura, de menor a mayor.  |" << endl;
     cout << "| 12) Leer la primera lectura de la cola.                                           |" << endl;
-    cout << "| 13) Salir.                                                                        |" << endl;
+    cout << "| 13) Ver orden y tiempo minimo para leer todas las lecturas                        |" << endl;
+    cout << "| 14) Salir.                                                                        |" << endl;
     cout << "|                                                                                   |"<< endl;
     cout << "+-----------------------------------------------------------------------------------+" << endl;
 }

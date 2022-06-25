@@ -3,6 +3,7 @@
 Menu::Menu(string archivo_lecturas, string archivo_escritores) {
     escritores = Carga_escritores(archivo_escritores).obtener_diccionario();
     lecturas = Carga_lecturas(archivo_lecturas, escritores).obtener_lista();
+    grafo_lecturas = Carga_grafo(lecturas).obtener_grafo();
 
     cola = new Cola;
 
@@ -20,6 +21,7 @@ Menu::Menu(string archivo_lecturas, string archivo_escritores) {
     opciones ->alta(new Listar(lecturas,escritores,6),10);
     opciones ->alta(new Crear_cola(lecturas,escritores,cola,1),11);
     opciones ->alta(new Crear_cola(lecturas,escritores,cola,2),12);
+    opciones ->alta(new Orden_lecturas(lecturas,escritores,grafo_lecturas),13);
 }
 
 void Menu::mensaje_para_volver_al_menu(){
@@ -47,7 +49,7 @@ void Menu::ejecutar_menu(){
 
     system("clear");
 
-    if (numero == 13)
+    if (numero == ULTIMA_OPCION)
         cout << "\nHasta luego!" <<endl;
     else {
         opciones->obtener_dato_en(numero)->ejecutar_opcion();
@@ -59,6 +61,7 @@ void Menu::ejecutar_menu(){
 Menu::~Menu() {
     delete opciones;
     delete cola;
+    delete grafo_lecturas;
     delete lecturas;
     delete escritores;
 }
