@@ -14,7 +14,7 @@ private:
 public:
     // Pre: -
     // Post: Constructor de la clase
-    Quita_lectura(Lista<Lectura>* lecturas, Lista<Escritor>* escritores);
+    Quita_lectura(Lista<Lectura>* lecturas, Diccionario* escritores);
 
     // Pre: -
     // Post: Pide al usuario que ingrese lo que esta en tipo hasta que el ingreso sea válido.

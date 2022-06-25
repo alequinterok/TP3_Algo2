@@ -13,7 +13,7 @@ private:
 public:
     // Pre: -
     // Post: Constructor de la clase
-    Listar(Lista<Lectura>* lecturas, Lista<Escritor>* escritores,int tipo);
+    Listar(Lista<Lectura>* lecturas, Diccionario* escritores,int tipo);
 
     // Pre: -
     // Post: Imprime por pantalla los escritores de la lista.
@@ -32,8 +32,8 @@ public:
     void novela_de_genero();
 
     //Pre:-
-    //Post: Devueve el nombre del escritor elegido por el usuario
-    string elegir_escritor();
+    //Post: Devueve el ISNI del escritor elegido por el usuario
+    int elegir_escritor();
 
     // Pre: -
     // Post: Imprime por pantalla las lecturas de un determinado escritor ingresado por el usuario.

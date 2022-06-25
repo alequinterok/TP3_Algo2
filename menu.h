@@ -33,8 +33,8 @@ const int ULTIMA_OPCION = 13;
 class Menu {
 //atributos
 private:
-    Lista<Lectura> *lecturas;
-    Lista<Escritor> *escritores;
+    Lista<Lectura>* lecturas;
+    Diccionario* escritores;
     Cola* cola;
     Opcion* opcion;
     Lista<Opcion>* opciones;

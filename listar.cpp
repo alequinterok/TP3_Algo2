@@ -1,6 +1,6 @@
 #include "listar.h"
 
-Listar::Listar(Lista<Lectura> *lecturas, Lista<Escritor> *escritores,int tipo): Opcion(lecturas,escritores) {
+Listar::Listar(Lista<Lectura> *lecturas, Diccionario *escritores,int tipo): Opcion(lecturas,escritores) {
     this -> tipo = tipo;
 }
 
@@ -8,12 +8,7 @@ void Listar::listar_escritores() {
 
     introduccion("LISTA DE ESCRITORES");
 
-    for (int i = 1; i <= escritores->obtener_cantidad(); i++){
-
-        Escritor esc = *(escritores->obtener_dato_en(i));
-        cout << i << endl;
-        esc.mostrar();
-    }
+    escritores->listar_escritores();
 }
 
 void Listar::listar_lecturas() {
@@ -35,39 +30,42 @@ void Listar::lectura_al_azar() {
     lecturas->obtener_dato_en(numero)->leer();
 }
 
-string Listar::elegir_escritor() {
+int Listar::elegir_escritor() {
     cout << "\nEscritores:" << endl;
 
-    for (int i = 1; i <= escritores->obtener_cantidad(); i++){
-        cout << i << ") " << escritores->obtener_dato_en(i)->obtener_nombre_apellido()<<endl;
-    }
+    escritores->mostrar();
 
-    int escritor_int;
-    do {
-        escritor_int = input_numero("Ingrese el número asociado al escritor deseado");
-    }while (0 >= escritor_int || escritores->obtener_cantidad()< escritor_int);
+    int isni;
 
-    return escritores->obtener_dato_en(escritor_int)->obtener_nombre_apellido();
+    cout << "Ingrese el ISNI asociado al escritor deseado" << endl;
+    isni = input_isni();
+
+    return isni;
 }
 
 void Listar::lecturas_del_escritor() {
     introduccion("LECTURAS DE UN ESCRITOR");
 
-    string escritor = elegir_escritor();
+    int isni_escritor = elegir_escritor();
 
-    cout << "\nLecturas escritas por "<< escritor << ": " << endl;
+    if (escritores->obtener_elemento(isni_escritor) != NULL){
 
-    int cantidad = 0;
-    for (int i = 1; i <= lecturas->obtener_cantidad(); i++){
-        if(lecturas->obtener_dato_en(i)->obtener_autor() != NULL &&
-           (string)lecturas->obtener_dato_en(i)->obtener_autor()->obtener_nombre_apellido() == escritor){
+        cout << "\nLecturas escritas por "<< escritores->obtener_elemento(isni_escritor)->obtener_nombre_apellido() << ": " << endl;
 
-            lecturas->obtener_dato_en(i)->mostrar();
-            cantidad++;
+        int cantidad = 0;
+        for (int i = 1; i <= lecturas->obtener_cantidad(); i++){
+            if(lecturas->obtener_dato_en(i)->obtener_autor() != NULL &&
+               lecturas->obtener_dato_en(i)->obtener_autor()->obtener_isni() == isni_escritor){
+
+                lecturas->obtener_dato_en(i)->mostrar();
+                cantidad++;
+            }
         }
+        if(cantidad == 0)
+            cout << "\nNo se encontraron lecturas escritas por este escritor. "<<endl;
+    }else{
+        cout << "No existe tal escritor" << endl;
     }
-    if(cantidad == 0)
-        cout << "\nNo se encontraron lecturas escritas por este escritor. "<<endl;
 }
 
 void Listar::novela_de_genero() {

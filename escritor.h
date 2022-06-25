@@ -8,6 +8,8 @@ using namespace std;
 const int SIGUE_VIVO = -1;
 const int ANIO_DESCONOCIDO = -1;
 
+const int CANT_DIGITOS_ISNI = 4;
+
 class Escritor{
 
 private:
@@ -20,11 +22,13 @@ private:
 
     int anio_fallecimiento;
 
+    int isni;
+
 public:
 
     // Pre: -
     // Post: Constructor de la clase escritor
-    Escritor(string nombre_apellido, string nacionalidad, int anio_nacimiento, int anio_fallecimiento);
+    Escritor(string nombre_apellido, string nacionalidad, int anio_nacimiento, int anio_fallecimiento, int isni);
 
     // Pre: El parametro no debe estar vacio
     // Post: Modifica el año de fallecimiento de un escritor
@@ -47,12 +51,12 @@ public:
     int obtener_anio_fallecimiento();
 
     // Pre: -
-    // Post: Imprime por pantalla la informacion del escritor
-    void mostrar();
+    // Post: Devuelve el isni del escritor
+    int obtener_isni();
 
     // Pre: -
-    // Post: Destructor de escritor
-    ~Escritor();
+    // Post: Imprime por pantalla la informacion del escritor
+    void mostrar();
 };
 
 #endif // ESCRITORES_H_INCLUDED

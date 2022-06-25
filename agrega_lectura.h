@@ -16,7 +16,7 @@ private:
 public:
     // Pre: -
     // Post: Constructor de la clase
-    Agrega_lectura(Lista<Lectura>* lecturas, Lista<Escritor>* escritores);
+    Agrega_lectura(Lista<Lectura>* lecturas, Diccionario* escritores);
 
     // Pre:
     // Post: Devuelve true si el tipo es CUENTO o POEMA o NOVELA, devuelve false en caso contrario

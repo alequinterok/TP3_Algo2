@@ -1,6 +1,6 @@
 #include "agrega_escritor.h"
 
-Agrega_escritor::Agrega_escritor(Lista<Lectura> *lecturas, Lista<Escritor> *escritores): Opcion(lecturas,escritores) {
+Agrega_escritor::Agrega_escritor(Lista<Lectura> *lecturas, Diccionario *escritores): Opcion(lecturas,escritores) {
     nuevo = NULL;
     existe = false;
 }
@@ -14,15 +14,15 @@ void Agrega_escritor::ingreso_nombre() {
 
 void Agrega_escritor::escritor_existente() {
 
-    int i = 1;
-    while (!existe && (i <= escritores->obtener_cantidad())){
-        if (nombre == escritores->obtener_dato_en(i)->obtener_nombre_apellido()){
-            existe = true;
-            nuevo = escritores -> obtener_dato_en(i);
-            cout << "\n" << "-- escritor reconocido --" << "\n" << endl;
-            nuevo -> mostrar();
-        }
-        i++;
+    Escritor* aux = escritores->obtener_elemento(isni);
+
+    if (aux != NULL){
+        existe = true;
+
+        cout << " -- escritor reconocido -- " << endl;
+        cout << aux->obtener_nombre_apellido() << endl;
+
+
     }
 }
 
@@ -55,11 +55,21 @@ void Agrega_escritor::ingreso_fallecimiento() {
     }
 }
 
+void Agrega_escritor::ingreso_isni(){
+
+    isni = input_isni();
+
+}
+
 Escritor *Agrega_escritor::nuevo_escritor() {
 
-    ingreso_nombre();
+    ingreso_isni();
+
     escritor_existente();
+
         if (!existe){
+
+            ingreso_nombre();
 
             ingreso_nacionalidad();
 
@@ -67,8 +77,8 @@ Escritor *Agrega_escritor::nuevo_escritor() {
 
             ingreso_fallecimiento();
 
-            nuevo = new Escritor(nombre, nacionalidad, nacimiento, fallecimiento);
-            escritores->alta(nuevo, escritores->obtener_cantidad() + 1);
+            nuevo = new Escritor(nombre, nacionalidad, nacimiento, fallecimiento, isni);
+            escritores->agregar_escritor(nuevo);
         }
 
     return nuevo;

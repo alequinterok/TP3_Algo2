@@ -1,9 +1,12 @@
 #include "menu.h"
 
 Menu::Menu(string archivo_lecturas, string archivo_escritores) {
-    escritores = Carga_escritores(archivo_escritores).obtener_lista();
+    escritores = Carga_escritores(archivo_escritores).obtener_diccionario();
     lecturas = Carga_lecturas(archivo_lecturas, escritores).obtener_lista();
+
     cola = new Cola;
+
+
     opciones = new Lista<Opcion>;
     opciones ->alta(new Agrega_lectura(lecturas,escritores),1);
     opciones ->alta(new Quita_lectura(lecturas,escritores),2);

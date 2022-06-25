@@ -1,6 +1,6 @@
 #include "opcion.h"
 
-Opcion::Opcion(Lista<Lectura> *lecturas, Lista<Escritor> *escritores) {
+Opcion::Opcion(Lista<Lectura> *lecturas, Diccionario *escritores) {
     this -> lecturas = lecturas;
     this -> escritores = escritores;
 }
@@ -50,6 +50,23 @@ int Opcion::input_numero(string texto) {
     }
 
     return stoi(numero_str);
+}
+
+int Opcion::input_isni(){
+
+    string isni_str;
+
+    cout << "ISNI: ";
+    cin >> isni_str;
+
+    if (isni_str.length() != CANT_DIGITOS_ISNI ||
+        !entrada_valida(isni_str)){
+        cout << "Recuerde que el ISNI es un numero de 4 digitos" << endl;
+        cout << "Ingrese ISNI: ";
+        cin >> isni_str;
+    }
+
+    return stoi(isni_str);
 }
 
 void Opcion::introduccion(string opcion) {

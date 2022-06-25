@@ -1,7 +1,8 @@
 #ifndef TP3_OPCION_H
 #define TP3_OPCION_H
-#include <iostream>
 
+#include <string>
+#include <iostream>
 using namespace std;
 
 #include<cstdlib>
@@ -22,12 +23,12 @@ class Opcion {
 protected:
 //atributos
     Lista<Lectura> *lecturas;
-    Lista<Escritor> *escritores;
+    Diccionario *escritores;
 public:
 //Métodos
     // Pre: -
     // Post: Constructor de la clase Opcion
-    Opcion(Lista<Lectura>* lecturas, Lista<Escritor>* escritores);
+    Opcion(Lista<Lectura>* lecturas, Diccionario* escritores);
 
     // Pre: -
     // Post: Imprime por pantalla las opciones que tiene el usuario en el menu
@@ -40,6 +41,10 @@ public:
     // Pre: -
     // Post: Pide al usuario que ingrese lo que esta en tipo hasta que el ingreso sea válido.
     static int input_numero(string texto);
+
+    // Pre: -
+    // Post: Pide al usuario que ingrese el isni hasta que sea valido
+    static int input_isni();
 
     //Pre: -
     //Post: Imprime por pantalla la introducción a la opción elegida.

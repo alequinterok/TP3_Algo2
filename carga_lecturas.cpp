@@ -1,10 +1,10 @@
 #include "carga_lecturas.h"
 #include <string>
 
-Carga_lecturas::Carga_lecturas(string nombre_archivo, Lista<Escritor>* escritores){
+Carga_lecturas::Carga_lecturas(string nombre_archivo, Diccionario* escritores){
     archivo = Archivo();
     lista = new Lista<Lectura>;
-    this->lista_escritores = escritores;
+    this->escritores = escritores;
     cargar_lista(nombre_archivo);
 }
 
@@ -34,13 +34,13 @@ Escritor* Carga_lecturas::asignar_escritor(string escritor_str) {
     }
 
     else {
-        string referencia_str;
-        for(int i= 1;i < (int)escritor_str.length();i++){
-            referencia_str += escritor_str[i];
+        string isni_str;
+        for(int i= 1;i <= CANT_DIGITOS_ISNI;i++){
+            isni_str[i-1] = escritor_str[i];
         }
-        int referencia = stoi(referencia_str);
+        int isni = stoi(isni_str);
 
-        escritor = lista_escritores->obtener_dato_en(referencia);
+        escritor = escritores->obtener_elemento(isni);
 
     }
     return escritor;

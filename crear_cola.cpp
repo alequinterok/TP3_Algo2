@@ -1,6 +1,6 @@
 #include "crear_cola.h"
 
-Crear_cola::Crear_cola(Lista<Lectura> *lecturas, Lista<Escritor> *escritores, Cola* cola,int tipo): Opcion(lecturas,escritores) {
+Crear_cola::Crear_cola(Lista<Lectura> *lecturas, Diccionario *escritores, Cola* cola,int tipo): Opcion(lecturas,escritores) {
     this -> cola = cola;
     this -> tipo = tipo;
 }

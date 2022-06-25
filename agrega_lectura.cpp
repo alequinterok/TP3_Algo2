@@ -1,6 +1,6 @@
 #include "agrega_lectura.h"
 
-Agrega_lectura::Agrega_lectura(Lista<Lectura> *lecturas, Lista<Escritor> *escritores): Agrega_escritor(lecturas,escritores) {
+Agrega_lectura::Agrega_lectura(Lista<Lectura> *lecturas, Diccionario *escritores): Agrega_escritor(lecturas,escritores) {
     nueva = NULL;
     minutos = 0;
     publicacion = 0;

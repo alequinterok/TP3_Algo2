@@ -12,7 +12,7 @@ private:
 public:
     // Pre: -
     // Post: Constructor de la clase
-    Crear_cola(Lista<Lectura>* lecturas, Lista<Escritor>* escritores, Cola* cola, int tipo);
+    Crear_cola(Lista<Lectura>* lecturas, Diccionario* escritores, Cola* cola, int tipo);
 
     // Pre: -
     // Post: Crea la cola de lecturas

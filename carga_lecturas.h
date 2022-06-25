@@ -2,6 +2,8 @@
 #define LISTAS_CARGA_LECTURAS_H
 #include <iostream>
 #include <string>
+
+#include "diccionario.h"
 #include "lista.h"
 #include "archivo.h"
 #include "lectura.h"
@@ -20,18 +22,18 @@ class Carga_lecturas {
 private:
     Archivo archivo;
     Lista<Lectura>* lista;
-    Lista<Escritor>* lista_escritores;
+    Diccionario* escritores;
     string tipo;
     Lectura* lectura;
 
 //metodos
 public:
 
-    // Pre: 
+    // Pre:
     // Post: Constructor de la clase carga_lecturas
-    explicit Carga_lecturas(string nombre_archivo, Lista<Escritor>* escritores);
+    explicit Carga_lecturas(string nombre_archivo, Diccionario* escritores);
 
-    // Pre: 
+    // Pre:
     // Post: Carga una lista de lectura
     void cargar_lista(string nombre_archivo);
 

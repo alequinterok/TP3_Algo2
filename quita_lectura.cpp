@@ -1,6 +1,6 @@
 #include "quita_lectura.h"
 
-Quita_lectura::Quita_lectura(Lista<Lectura> *lecturas, Lista<Escritor> *escritores): Opcion(lecturas,escritores) {
+Quita_lectura::Quita_lectura(Lista<Lectura> *lecturas, Diccionario *escritores): Opcion(lecturas,escritores) {
     posicion = -1;
 }
 

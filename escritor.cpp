@@ -1,9 +1,9 @@
-#include "escritores.h"
+#include "escritor.h"
 #include <iostream>
 
 using namespace std;
 
-Escritor::Escritor(string nombre_apellido, string nacionalidad, int anio_nacimiento, int anio_fallecimiento) {
+Escritor::Escritor(string nombre_apellido, string nacionalidad, int anio_nacimiento, int anio_fallecimiento, int isni) {
 
     this->nombre_apellido = nombre_apellido;
 
@@ -12,6 +12,8 @@ Escritor::Escritor(string nombre_apellido, string nacionalidad, int anio_nacimie
     this->anio_nacimiento = anio_nacimiento;
 
     this->anio_fallecimiento = anio_fallecimiento;
+
+    this->isni = isni;
 
 }
 
@@ -43,6 +45,10 @@ int Escritor::obtener_anio_fallecimiento() {
 
 }
 
+int Escritor::obtener_isni(){
+    return isni;
+}
+
 void Escritor::mostrar(){
     cout << nombre_apellido << endl;
     cout << "  - nacionalidad: " << nacionalidad << endl;
@@ -50,12 +56,10 @@ void Escritor::mostrar(){
     if (anio_nacimiento != ANIO_DESCONOCIDO){
         cout << anio_nacimiento << endl;
     }else{
-        cout << "desconocido" << endl;    
+        cout << "desconocido" << endl;
     }
     if (anio_fallecimiento != SIGUE_VIVO){
         cout << "  - anio de fallecimiento: " << anio_fallecimiento << endl;
     }
 }
 
-Escritor::~Escritor(){
-}

@@ -11,6 +11,7 @@ protected:
     string nacionalidad;
     int nacimiento;
     int fallecimiento;
+    int isni;
     bool existe;
 
 
@@ -18,7 +19,7 @@ protected:
 public:
     // Pre: -
     // Post: Constructor de la clase
-    Agrega_escritor(Lista<Lectura>* lecturas, Lista<Escritor>* escritores);
+    Agrega_escritor(Lista<Lectura>* lecturas, Diccionario* escritores);
 
     // Pre: -
     // Post: asigna el nombre ingresado por el usuario
@@ -35,6 +36,10 @@ public:
     // Pre: -
     // Post: asigna el anio de fallecimiento ingresado por el usuario
     void ingreso_fallecimiento();
+
+    // Pre: -
+    // Post: asingma el isni ingresado por el usuario
+    void ingreso_isni();
 
     // Pre: -
     // Post: True si el escritor ya esta en la lista, False si no.
