@@ -1,0 +1,19 @@
+# ninja log v5
+1	36	1656463495366459415	CMakeFiles/TP3_Algo2.dir/arista.cpp.o	7d52d67edba44038
+1	526	1656463495854461673	CMakeFiles/TP3_Algo2.dir/archivo.cpp.o	a3c071fa17a0ac13
+1	556	1656463495882461802	CMakeFiles/TP3_Algo2.dir/cambia_dato.cpp.o	9507e0f2410f305d
+0	569	1656463495894461858	CMakeFiles/TP3_Algo2.dir/agrega_escritor.cpp.o	2093a840d60570a8
+39	582	1656463495910461932	CMakeFiles/TP3_Algo2.dir/carga_grafo.cpp.o	85a7b9cba8d58117
+2	625	1656463495954462136	CMakeFiles/TP3_Algo2.dir/carga_escritores.cpp.o	84e7898a6f9baa84
+1	674	1656463496002462358	CMakeFiles/TP3_Algo2.dir/agrega_lectura.cpp.o	b0c114cc7752b9f
+557	1077	1656463496406464227	CMakeFiles/TP3_Algo2.dir/cola.cpp.o	b975d1a9605b3f9f
+569	1141	1656463496470464524	CMakeFiles/TP3_Algo2.dir/crear_cola.cpp.o	18296053767da711
+528	1154	1656463496482464579	CMakeFiles/TP3_Algo2.dir/carga_lecturas.cpp.o	a97299a8b7f08b0
+675	1168	1656463496494464634	CMakeFiles/TP3_Algo2.dir/escritor.cpp.o	f2b9ae46b1402048
+582	1173	1656463496498464653	CMakeFiles/TP3_Algo2.dir/cuento.cpp.o	c94bfb37fdb28480
+626	1261	1656463496590465079	CMakeFiles/TP3_Algo2.dir/diccionario.cpp.o	f1a8fe9d1c2669f5
+1141	1646	1656463496974466856	CMakeFiles/TP3_Algo2.dir/historica.cpp.o	3b47819ca0031859
+1077	1653	1656463496978466875	CMakeFiles/TP3_Algo2.dir/grafo.cpp.o	83e79a52e2755af9
+1168	1702	1656463497030467115	CMakeFiles/TP3_Algo2.dir/lectura.cpp.o	8ff824db015cf9cc
+1261	1737	1656463497066467282	CMakeFiles/TP3_Algo2.dir/main.cpp.o	a774a1291c245336
+1173	1814	1656463497142467633	CMakeFiles/TP3_Algo2.dir/listar.cpp.o	4b383af4f7f0ffcd
