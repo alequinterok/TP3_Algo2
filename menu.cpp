@@ -24,11 +24,13 @@ Menu::Menu(string archivo_lecturas, string archivo_escritores) {
     opciones ->alta(new Orden_lecturas(lecturas,escritores,grafo_lecturas),13);
 }
 
+
 void Menu::mensaje_para_volver_al_menu(){
     string basura;
-    cout << "\n Ingrese cualquier tecla para volver al menu: ";
+    cout << "\nIngrese una letra cualquiera y luego presione enter para volver al menu: ";
     cin >> basura;
 }
+
 
 int Menu::obtener_opcion(){
     int numero = Opcion::input_numero("Ingrese la opcion que desee ");
@@ -38,6 +40,7 @@ int Menu::obtener_opcion(){
     }
     return numero;
 }
+
 
 void Menu::ejecutar_menu(){
     system("clear");

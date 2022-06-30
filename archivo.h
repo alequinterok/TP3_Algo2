@@ -9,7 +9,7 @@ using namespace std;
 
 class Archivo {
 //atributos
-protected:
+private:
     ifstream archivo;
     string linea;
 

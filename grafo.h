@@ -32,57 +32,66 @@ private:
 
 /*MÉTODOS*/
 
-
-    //post: agranda dinamicamente la matriz de adyacencia
+    // Pre: -
+    // Post: Agranda dinamicamente la matriz de adyacencia
     void agrandar_matriz_de_adyacencia();
 
-    //pre: la matriz que se le envie ya debe tener memoria reservada
-    //post: copia la matriz de adyacencia en la nueva matriz
+    // Pre: La matriz que se le envie ya debe tener memoria reservada
+    // Post: Copia la matriz de adyacencia en la nueva matriz
     void copiar_matriz_adyacente(int** nueva_adyacente);
 
-    //post inicializa un nuevo vertice en la matriz de adyacencia con un valor de infinito
+    // Pre: La matriz que se le envie ya debe tener memoria reservada
+    // Post Inicializa un nuevo vertice en la matriz de adyacencia con un valor de infinito
     void inicializar_nuevo_vertice(int** nueva_adyacente);
 
-    //post libera la memoria de la matriz de adyacencia
+    // Pre: -
+    // Post: Libera la memoria de la matriz de adyacencia
     void liberar_matriz_adyacencia();
 
 public:
     
+    // Pre: -
+    // Post: Constructor de la clase Grafo
     Grafo();
-
-    //post: imprime por pantalla los vertices del grafo
+    
+    // Pre: -
+    // Post: Imprime por pantalla los vertices del grafo
     void mostrar_vertices();
 
-    //post: imprime por pantalla la matriz de adyacencia
+    // Pre: -
+    // Post: Imprime por pantalla la matriz de adyacencia
     void mostrar_matriz_adyacencia();
 
-    //pre: No hay vertices repetidos en nombre
-    //post: agrega un nuevo vertice al grafo y las aristas correspondientes.
+    // Pre: No hay vertices repetidos en nombre
+    // Post: Agrega un nuevo vertice al grafo y las aristas correspondientes.
     void agregar_vertice(Lectura* vertice_nuevo);
 
-    //pre: No hay vertices repetidos en nombre
-    //post: agrega un nuevo vertice al grafo.
+    // Pre: No hay vertices repetidos en nombre
+    // Post: Agrega un nuevo vertice al grafo.
     void agregar_vertice(Lectura* vertice_nuevo,int a);
 
-    //pre: Los vertices existen.
-    //post: agrega una nueva arista al grafo.
+    //Pre: Los vertices existen.
+    //Post: Agrega una nueva arista al grafo.
     void agregar_arista(int vertice_a, int vertice_b, int peso);
 
-    //pre:
-    //post: Ajusta la matriz de adyacencia con los pesos correspondientes al vertice agregado
+    //Pre:
+    //Post: Ajusta la matriz de adyacencia con los pesos correspondientes al vertice agregado
     void agregar_caminos(int nuevo);
 
-    //pre:
-    //post: Devuelve la lista de vertices.
+    //Pre: -
+    //Post: Devuelve la lista de vertices.
     Lista<Vertice>* obtener_vertices();
 
-    //pre:
-    //post: Devuelve la matriz de adyacencia.
+    //Pre: -
+    //Post: Devuelve la matriz de adyacencia.
     int** obtener_matriz();
 
+    // Pre: Los tipos de lectura existen
+    // Post: Asigna el peso segun la arista que une los tipos de lectura
     int asignar_peso(string tipo_uno, string tipo_dos);
 
-    //post: imprime por pantalla el grafo
+    // Pre: -
+    // Post: Imprime por pantalla el grafo
     void mostrar_grafo();
 
 

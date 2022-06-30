@@ -7,11 +7,15 @@
 
 class Novela: public Lectura{
 //atributos
+
 public:
     enum Genero{DRAMA, COMEDIA, FICCION, SUSPENSO,TERROR, ROMANTICA, HISTORICA};
-    Genero genero;
-//metodos
 
+protected:
+    Genero genero;
+
+//metodos
+public:
     // Pre: -
     // Post: Constructor de la clase novela
     Novela(std::string titulo, int minutos, int anio, Escritor* autor, Genero genero );

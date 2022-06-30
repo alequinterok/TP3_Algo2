@@ -14,7 +14,7 @@ void Orden_lecturas::ejecutar_opcion(){
 
     if (arbol_minimo == nullptr)
         buscar_orden();
-    arbol_minimo->mostrar_grafo();
+    kruskal -> mostrar();
 
 }
 

@@ -16,7 +16,7 @@ void Cambia_dato::input_numero(string texto) {
 
     int anio_nacimiento = escritores->obtener_elemento(isni)->obtener_anio_nacimiento();
     if (anio_nacimiento != ANIO_DESCONOCIDO){
-        while (nuevo_fallecimiento < anio_nacimiento) {
+        while (nuevo_fallecimiento < anio_nacimiento && nuevo_fallecimiento != 1) {
             cout << "\nEl año de fallecimiento no puede ser menor que el año de nacimiento." << endl;
             nuevo_fallecimiento = Opcion::input_numero(texto);
         }
@@ -35,7 +35,11 @@ void Cambia_dato::ejecutar_opcion() {
 
         cout << "\nPuede modificar el anio de fallecimiento \n" << endl;
 
-        input_numero("Ingrese el anio de fallecimiento");
+        input_numero("Ingrese el anio de fallecimiento (en caso de querer borrar el dato, ingrese 1)");
+
+        if(nuevo_fallecimiento == 1) {
+            nuevo_fallecimiento = SIGUE_VIVO;
+        }
 
         escritor->modificar_anio_fallecimiento(nuevo_fallecimiento);
 

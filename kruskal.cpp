@@ -6,6 +6,7 @@ Kruskal::Kruskal(int ** matriz_de_adyacencia, Lista<Vertice>* vertices) {
     arbol_minimo = nullptr;
     arboles = new Lista<Grafo>;
     aristas = new Lista<Arista>;
+    primero = INFINITO;
 }
 
 
@@ -97,6 +98,70 @@ void Kruskal::buscar_arbol_minimo() {
 
 Grafo* Kruskal::obtener_arbol_minimo() {
     return arbol_minimo;
+}
+
+
+int Kruskal::calcular_peso() {
+    int peso = 0;
+    for (int i = 0; i < arbol_minimo-> obtener_vertices()-> obtener_cantidad(); i++) {
+        peso += arbol_minimo-> obtener_vertices()->obtener_dato_en(i + 1)->obtener_lectura()->obtener_minutos();
+        for (int j = i + 1; j < arbol_minimo-> obtener_vertices()-> obtener_cantidad(); j++) {
+            if (arbol_minimo->obtener_matriz()[i][j] != INFINITO) {
+                peso += arbol_minimo->obtener_matriz()[i][j];
+            }
+        }
+    }
+    return peso;
+}
+
+
+bool Kruskal::es_lista() {
+    bool es_lista = true;
+    int i = 0;
+    while (es_lista && i < arbol_minimo -> obtener_vertices() -> obtener_cantidad()) {
+        int j = 0;
+        int contador = 0;
+        while (es_lista && j < arbol_minimo -> obtener_vertices() -> obtener_cantidad()) {
+            if (arbol_minimo -> obtener_matriz()[i][j] != INFINITO) {
+                contador++;
+            }
+            if(contador > 2) {
+                es_lista = false;
+            }
+            j++;
+        }
+        if (contador == 1 && primero == INFINITO) {
+            primero = i + 1;
+        }
+        i++;
+    }
+    return es_lista;
+}
+
+
+void Kruskal::mostrar() {
+    if (es_lista()) {
+        cout << "1- " << arbol_minimo -> obtener_vertices() -> obtener_dato_en(primero) -> obtener_lectura() -> obtener_titulo() << endl;
+        int anterior = INFINITO;
+        for(int i = 2; i <= arbol_minimo -> obtener_vertices() -> obtener_cantidad(); i++) {
+            int j = 0;
+            bool encontrado = false;
+            while(!encontrado) {
+                if((j + 1) != anterior && arbol_minimo -> obtener_matriz()[primero - 1][j] != INFINITO) {
+                    anterior = primero;
+                    primero = j + 1;
+                    encontrado = true;
+                    cout << i << "- " << arbol_minimo -> obtener_vertices() -> obtener_dato_en(primero) -> obtener_lectura() -> obtener_titulo() << endl;
+                }
+                j++;
+            }
+        }
+
+    }
+    else {
+        arbol_minimo -> mostrar_grafo();
+    }
+    cout << "\nTiempo de lectura total: " << calcular_peso() << " minutos." << endl;
 }
 
 
