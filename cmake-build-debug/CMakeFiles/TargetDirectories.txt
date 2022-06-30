@@ -1,3 +1,0 @@
-/home/anita/TP3_Algo2/cmake-build-debug/CMakeFiles/TP3_Algo2.dir
-/home/anita/TP3_Algo2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/anita/TP3_Algo2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
