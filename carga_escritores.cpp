@@ -22,7 +22,7 @@ void Carga_escritores::crear_escritor() {
 }
 
 int Carga_escritores::identificar_isni(string isni_bruto){
-    string isni_str = "";
+    string isni_str = "0000";
 
     for (int i = 1; i <= CANT_DIGITOS_ISNI; i++){
         isni_str[i-1] = isni_bruto[i];

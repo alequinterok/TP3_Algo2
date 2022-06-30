@@ -1,4 +1,4 @@
-# Install script for directory: /home/al3x/Documentos/TP3_Algo2
+# Install script for directory: /home/anita/TP3_Algo2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/al3x/Documentos/TP3_Algo2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/anita/TP3_Algo2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

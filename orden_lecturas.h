@@ -8,6 +8,8 @@ class Orden_lecturas: public Opcion{
 private:
 
     Grafo* grafo;
+    Kruskal* kruskal;
+    Grafo* arbol_minimo;
 
 public:
 
@@ -18,6 +20,16 @@ public:
     // Pre: -
     // Post: Ejecuta la opción.
     void ejecutar_opcion() override;
+
+    //pre: -
+    //post: Busca el arbol minimo.
+    void buscar_orden();
+
+    // Pre: -
+    // Post: destructor de clase.
+    ~Orden_lecturas() override;
+
+
 
 };
 

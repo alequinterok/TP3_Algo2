@@ -37,6 +37,8 @@ public:
     // Post: Devuelve el vertice b
     int obtener_vertice_b();
 
+    void mostrar();
+
 };
 
 #endif // ARISTA_H_INCLUDED

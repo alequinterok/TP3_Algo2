@@ -16,6 +16,17 @@ void Grafo::agregar_vertice(Lectura* vertice_nuevo) {
     agregar_caminos(vertices->obtener_cantidad());
 }
 
+void Grafo::agregar_vertice(Lectura* vertice_nuevo, int a){
+    agrandar_matriz_de_adyacencia();
+    auto* nuevo_vertice = new Vertice(vertice_nuevo);
+    vertices -> alta(nuevo_vertice,vertices->obtener_cantidad()+1);
+}
+
+void Grafo::agregar_arista(int vertice_a, int vertice_b, int peso){
+    matriz_de_adyacencia[vertice_a - 1][vertice_b - 1] = peso;
+    matriz_de_adyacencia[vertice_b - 1][vertice_a - 1] = peso;
+}
+
 void Grafo::mostrar_grafo() {
     mostrar_vertices();
     mostrar_matriz_adyacencia();
@@ -62,9 +73,12 @@ void Grafo::agregar_caminos(int nuevo) {
     for(int i = 0; i < vertices -> obtener_cantidad(); i++){
         string tipo_otro = vertices ->obtener_dato_en(i+1) -> obtener_lectura() -> obtener_tipo();
         int peso = asignar_peso(tipo_nuevo,tipo_otro);
-        matriz_de_adyacencia[nuevo-1][i] = peso;
-        matriz_de_adyacencia[i][nuevo-1] = peso;
-
+        if ((nuevo - 1) != i) {
+            matriz_de_adyacencia[nuevo - 1][i] = peso;
+            matriz_de_adyacencia[i][nuevo - 1] = peso;
+        }else{
+            matriz_de_adyacencia[nuevo-1][nuevo-1] = INFINITO;
+        }
     }
 }
 
@@ -96,7 +110,7 @@ void Grafo::inicializar_nuevo_vertice(int** nueva_adyacente) {
         nueva_adyacente[vertices -> obtener_cantidad()][i] = INFINITO;
         nueva_adyacente[i][vertices -> obtener_cantidad()] = INFINITO;
     }
-    nueva_adyacente[vertices -> obtener_cantidad()][vertices -> obtener_cantidad()] = 0;
+    nueva_adyacente[vertices -> obtener_cantidad()][vertices -> obtener_cantidad()] = INFINITO;
 }
 
 void Grafo::liberar_matriz_adyacencia() {
@@ -123,16 +137,27 @@ void Grafo::mostrar_vertices() {
     cout << endl;
 }
 
+Lista<Vertice>* Grafo::obtener_vertices() {
+    return vertices;
+}
+
+int** Grafo::obtener_matriz(){
+    return matriz_de_adyacencia;
+}
+
 void Grafo::mostrar_matriz_adyacencia() {
     cout << "Matriz de adyacencia:" << endl;
     for(int i = 0; i < vertices -> obtener_cantidad(); i++){
+        cout << "|";
         for(int j = 0; j < vertices -> obtener_cantidad() * 2; j++) {
             if(j == vertices -> obtener_cantidad() * 2 - 1){
-                cout << endl;
+                cout << "|"<< endl;
             } else if(j % 2 == 0){
                 if(matriz_de_adyacencia[i][j / 2] == INFINITO){
-                    cout << "∞";
+                    cout << " ∞";
                 } else {
+                    if (matriz_de_adyacencia[i][j / 2] < 10)
+                        cout << " ";
                     cout << matriz_de_adyacencia[i][j / 2];
                 }
             } else{
@@ -142,4 +167,3 @@ void Grafo::mostrar_matriz_adyacencia() {
     }
     cout << endl;
 }
-

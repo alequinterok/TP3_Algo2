@@ -29,7 +29,6 @@ class Grafo {
 private:
     int ** matriz_de_adyacencia;
     Lista<Vertice>* vertices;
-    //CaminoMinimo * algoritmoCaminoMinimo;
 
 /*MÉTODOS*/
 
@@ -47,21 +46,39 @@ private:
     //post libera la memoria de la matriz de adyacencia
     void liberar_matriz_adyacencia();
 
+public:
+    
+    Grafo();
+
     //post: imprime por pantalla los vertices del grafo
     void mostrar_vertices();
 
     //post: imprime por pantalla la matriz de adyacencia
     void mostrar_matriz_adyacencia();
-public:
 
-    Grafo();
     //pre: No hay vertices repetidos en nombre
-    //post: agrega un nuevo vertice al grafo
+    //post: agrega un nuevo vertice al grafo y las aristas correspondientes.
     void agregar_vertice(Lectura* vertice_nuevo);
+
+    //pre: No hay vertices repetidos en nombre
+    //post: agrega un nuevo vertice al grafo.
+    void agregar_vertice(Lectura* vertice_nuevo,int a);
+
+    //pre: Los vertices existen.
+    //post: agrega una nueva arista al grafo.
+    void agregar_arista(int vertice_a, int vertice_b, int peso);
 
     //pre:
     //post: Ajusta la matriz de adyacencia con los pesos correspondientes al vertice agregado
     void agregar_caminos(int nuevo);
+
+    //pre:
+    //post: Devuelve la lista de vertices.
+    Lista<Vertice>* obtener_vertices();
+
+    //pre:
+    //post: Devuelve la matriz de adyacencia.
+    int** obtener_matriz();
 
     int asignar_peso(string tipo_uno, string tipo_dos);
 

@@ -16,6 +16,7 @@ using namespace std;
 #include "carga_lecturas.h"
 #include "cola.h"
 #include "grafo.h"
+#include "kruskal.h"
 
 const char SI = 's';
 const char NO = 'n';

@@ -27,3 +27,8 @@ int Arista::comparar(Arista otra_arista) {
     else
         return IGUAL;
 }
+
+void Arista::mostrar() {
+    cout<<"peso: "<<peso<<endl;
+    cout<<"vertices: (" <<vertice_a<<", "<<vertice_b<<")"<<endl;
+}

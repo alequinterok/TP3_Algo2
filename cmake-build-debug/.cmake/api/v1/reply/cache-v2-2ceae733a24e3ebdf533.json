@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/al3x/Documentos/TP3_Algo2/cmake-build-debug"
+			"value" : "/home/anita/TP3_Algo2/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -591,7 +591,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/al3x/Documentos/TP3_Algo2"
+			"value" : "/home/anita/TP3_Algo2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1123,7 +1123,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/al3x/Documentos/TP3_Algo2/cmake-build-debug"
+			"value" : "/home/anita/TP3_Algo2/cmake-build-debug"
 		},
 		{
 			"name" : "TP3_Algo2_IS_TOP_LEVEL",
@@ -1147,7 +1147,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/al3x/Documentos/TP3_Algo2"
+			"value" : "/home/anita/TP3_Algo2"
 		}
 	],
 	"kind" : "cache",

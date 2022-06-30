@@ -34,7 +34,7 @@ Escritor* Carga_lecturas::asignar_escritor(string escritor_str) {
     }
 
     else {
-        string isni_str;
+        string isni_str="0000";
         for(int i= 1;i <= CANT_DIGITOS_ISNI;i++){
             isni_str[i-1] = escritor_str[i];
         }

@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TP3_Algo2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP3_Algo2-Debug-0a50e997164b627697d3.json",
+					"jsonFile" : "target-TP3_Algo2-Debug-531dc3473850c296c10e.json",
 					"name" : "TP3_Algo2",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/al3x/Documentos/TP3_Algo2/cmake-build-debug",
-		"source" : "/home/al3x/Documentos/TP3_Algo2"
+		"build" : "/home/anita/TP3_Algo2/cmake-build-debug",
+		"source" : "/home/anita/TP3_Algo2"
 	},
 	"version" : 
 	{

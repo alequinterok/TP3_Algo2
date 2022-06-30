@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/al3x/Documentos/TP3_Algo2/cmake-build-debug/
+cmake_ninja_workdir = /home/anita/TP3_Algo2/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target TP3_Algo2
 
@@ -49,244 +49,244 @@ cmake_ninja_workdir = /home/al3x/Documentos/TP3_Algo2/cmake-build-debug/
 
 build cmake_object_order_depends_target_TP3_Algo2: phony || CMakeFiles/TP3_Algo2.dir
 
-build CMakeFiles/TP3_Algo2.dir/agrega_escritor.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/agrega_escritor.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/agrega_escritor.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/agrega_escritor.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/agrega_escritor.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/agrega_lectura.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/agrega_lectura.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/agrega_lectura.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/agrega_lectura.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/agrega_lectura.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/archivo.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/archivo.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/archivo.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/archivo.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/archivo.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/arista.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/arista.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/arista.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/arista.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/arista.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/cambia_dato.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/cambia_dato.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/cambia_dato.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/cambia_dato.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/cambia_dato.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/carga_escritores.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/carga_escritores.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/carga_escritores.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/carga_escritores.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/carga_escritores.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/carga_grafo.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/carga_grafo.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/carga_grafo.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/carga_grafo.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/carga_grafo.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/carga_lecturas.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/carga_lecturas.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/carga_lecturas.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/carga_lecturas.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/carga_lecturas.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/cola.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/cola.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/cola.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/cola.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/cola.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/crear_cola.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/crear_cola.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/crear_cola.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/crear_cola.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/crear_cola.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/cuento.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/cuento.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/cuento.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/cuento.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/cuento.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/diccionario.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/diccionario.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/diccionario.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/diccionario.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/diccionario.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/escritor.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/escritor.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/escritor.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/escritor.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/escritor.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/grafo.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/grafo.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/grafo.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/grafo.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/grafo.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/historica.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/historica.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/historica.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/historica.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/historica.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/kruskal.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/kruskal.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/kruskal.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/kruskal.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/kruskal.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/lectura.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/lectura.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/lectura.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/lectura.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/lectura.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/listar.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/listar.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/listar.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/listar.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/listar.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/main.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/main.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/main.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/main.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/main.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/menu.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/menu.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/menu.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/menu.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/menu.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/novela.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/novela.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/novela.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/novela.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/novela.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/opcion.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/opcion.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/opcion.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/opcion.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/opcion.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/orden_lecturas.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/orden_lecturas.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/orden_lecturas.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/orden_lecturas.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/orden_lecturas.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/poema.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/poema.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/poema.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/poema.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/poema.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/posicion.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/posicion.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/posicion.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/posicion.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/posicion.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/quita_lectura.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/quita_lectura.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/quita_lectura.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/quita_lectura.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/quita_lectura.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
   TARGET_PDB = TP3_Algo2.pdb
 
-build CMakeFiles/TP3_Algo2.dir/vertice.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/al3x/Documentos/TP3_Algo2/vertice.cpp || cmake_object_order_depends_target_TP3_Algo2
+build CMakeFiles/TP3_Algo2.dir/vertice.cpp.o: CXX_COMPILER__TP3_Algo2_Debug /home/anita/TP3_Algo2/vertice.cpp || cmake_object_order_depends_target_TP3_Algo2
   DEP_FILE = CMakeFiles/TP3_Algo2.dir/vertice.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/al3x/Documentos/TP3_Algo2/. -I/home/al3x/Documentos/TP3_Algo2/archivos
+  INCLUDES = -I/home/anita/TP3_Algo2/. -I/home/anita/TP3_Algo2/archivos
   OBJECT_DIR = CMakeFiles/TP3_Algo2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3_Algo2.dir
   TARGET_COMPILE_PDB = CMakeFiles/TP3_Algo2.dir/
@@ -314,7 +314,7 @@ build TP3_Algo2: CXX_EXECUTABLE_LINKER__TP3_Algo2_Debug CMakeFiles/TP3_Algo2.dir
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/al3x/Documentos/TP3_Algo2/cmake-build-debug && /snap/clion/198/bin/cmake/linux/bin/ccmake -S/home/al3x/Documentos/TP3_Algo2 -B/home/al3x/Documentos/TP3_Algo2/cmake-build-debug
+  COMMAND = cd /home/anita/TP3_Algo2/cmake-build-debug && /snap/clion/198/bin/cmake/linux/bin/ccmake -S/home/anita/TP3_Algo2 -B/home/anita/TP3_Algo2/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -326,7 +326,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/al3x/Documentos/TP3_Algo2/cmake-build-debug && /snap/clion/198/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/al3x/Documentos/TP3_Algo2 -B/home/al3x/Documentos/TP3_Algo2/cmake-build-debug
+  COMMAND = cd /home/anita/TP3_Algo2/cmake-build-debug && /snap/clion/198/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/anita/TP3_Algo2 -B/home/anita/TP3_Algo2/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -342,7 +342,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/al3x/Documentos/TP3_Algo2/cmake-build-debug
+# Folder: /home/anita/TP3_Algo2/cmake-build-debug
 
 build all: phony TP3_Algo2
 

@@ -6,8 +6,9 @@
 #include "vertice.h"
 #include "grafo.h"
 #include "arista.h"
+#include "posicion.h"
 
-class Kruskal{
+class Kruskal {
 
 private:
     Grafo* arbol_minimo;
@@ -31,11 +32,11 @@ public:
 
     // Pre: -
     // Post: 
-    void juntar_arboles(int, int);
+    void juntar_arboles(int, int, int);
 
     // Pre: -
     // Post: 
-    void buscar_vertice();
+    Posicion buscar_vertice(int vertice);
 
     // Pre: -
     // Post: Busca el arbol minimo
