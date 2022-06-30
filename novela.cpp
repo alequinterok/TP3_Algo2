@@ -14,8 +14,8 @@ string Novela::obtener_tipo() {
 
 void Novela::mostrar(){
     Lectura::mostrar();
-    cout << "-Tipo: Novela" << endl;
-    cout << " -Genero: ";
+    cout << "- tipo: Novela" << endl;
+    cout << "- genero: ";
     switch (genero) {
         case DRAMA:
             cout << "Drama" << endl;

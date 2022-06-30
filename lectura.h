@@ -16,6 +16,7 @@ protected:
     int minutos;
     Escritor* autor;
     bool leida;
+    int anio;
 
     // Pre: -
     // Post: Constructor de la clase lectura
@@ -28,7 +29,6 @@ protected:
 
 
 public:
-    int anio;
 
     // Pre: -
     // Post: Devuelve el nombre del titulo de la lectura

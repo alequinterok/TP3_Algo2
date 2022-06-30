@@ -14,7 +14,7 @@ string Historica::obtener_tipo() {
 
 void Historica::mostrar() {
     Novela::mostrar();
-    cout << " -Tema: " << tema << endl;
+    cout << "- tema: " << tema << endl;
 }
 
 Historica::~Historica(){

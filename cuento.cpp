@@ -15,8 +15,8 @@ string Cuento::obtener_tipo() {
 
 void Cuento::mostrar() {
     Lectura::mostrar();
-    cout << "-Tipo: Cuento" << endl;
-    cout << " -Libro: " << libro << endl;
+    cout << "- tipo: Cuento" << endl;
+    cout << "- libro: " << libro << endl;
 }
 
 Cuento::~Cuento(){

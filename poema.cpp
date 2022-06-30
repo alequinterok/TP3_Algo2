@@ -14,8 +14,8 @@ string Poema::obtener_tipo() {
 
 void Poema::mostrar() {
     Lectura::mostrar();
-    cout << "-Tipo: Poema" << endl;
-    cout << " -Versos: " << versos << endl;
+    cout << "- tipo: Poema" << endl;
+    cout << "- versos: " << versos << endl;
 }
 
 Poema::~Poema(){
