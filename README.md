@@ -1,1 +1,3 @@
-# TP3 del grupo ./main() para la materia Algoritmos y programación 2, curso Juarez.
+#Algoritmos y programación II, curso: Juarez.
+TP3
+Grupo: ./main()
