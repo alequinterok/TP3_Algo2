@@ -1,3 +1,3 @@
->**Algoritmos y programación II, curso: Juarez.**
->>TP3
->>>Grupo: ./main()
+**TP3 | Algoritmos y Programación 2 | Juarez.**
+***
+**Grupo: ./main()**
