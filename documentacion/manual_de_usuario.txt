@@ -1,0 +1,68 @@
+Manual de Usuario:
+
+Antes de ejecutar el programa corroborar que la carpeta archivos tiene los archivos necesarios:
+lecturas.txt y escritores.txt. En caso de querer modificar los archivos, respetar la nomenclatura original.
+
+Al ejecutar el programa se abre el menú y el usuario debe ingresar una opción del 1 al 13 por terminal
+
+1. Agregar una nueva lectura a la lista
+	Permite agregar una lectura a la lista de lecturas, el usuario debe ingresar los datos solicitados uno por uno. Si el escritor no está en el diccionario de escritores también 
+	debe completar los datos de este.
+
+
+2. Quitar una lectura de la lista
+	Muestra los títulos numerados y el usuario debe ingresar el número correspondiente a la lectura
+	que desea quitar.
+
+
+3. Agregar un escritor
+	Permite agregar un escritor al diccionario de escritores, el usuario debe ingresar los datos solicitados uno por uno. En caso de ingresar un escritor que ya se encuentra en el diccionario
+	no lo agrega y sale.
+	
+	
+4. Cambiar dato de un escritor (solo fecha de fallecimiento)
+	Muestra los escritores en el diccionario de escritores, de forma numerada y el usuario debe seleccionar el escritor al que desea modificarle la fecha de fallecimiento, a continuación 
+	se le pide ingresar el nuevo año.
+	
+
+5. Listar los escritores
+	Muestra por pantalla todos los escritores en el diccionario de escritores.
+	
+
+6. Sortear una lectura random para leer en una de las tertulias
+	Muestra por pantalla una lectura de la lista de lecturas de forma aleatoria para leer (se considera leida)
+
+
+7. Listar todas las lecturas
+	Muestra por pantalla todas las lecturas de la lista de lecturas
+	
+
+8. Listar las lecturas entre determinados años
+	Pide al usuario ingresar dos años, uno por uno, de menor a mayor y a continuación muestra por pantalla las lecturas publicadas correspondientes al período indicado.
+	
+
+9. Listar las lecturas de un determinado escritor que ingresa el usuario.
+	Muestra por pantalla los escritores de manera numerada y a continuación pide ingresar el número correspondiente al escritor deseado para mostrar las lecturas escritas por el mismo.
+
+
+10. Listar las novelas de determinado género.
+	Muestra por pantalla los generos de forma numerada y le solicita al usuario ingresar el número correspondiente al tipo de género que desea ver. A continuación muestra por pantalla
+	las novelas de ese género.
+	
+
+11. Armar una cola ordenada por tiempo de lectura
+	Crea una cola de lecturas no leidas, ordenadas por tiempo de lectura y la muestra por pantalla
+
+
+12. Leer una lectura
+	Muestra por pantalla la primera lectura de la cola y la saca de esta (se considera leida)
+
+
+13. Ver orden y tiempo minimo para leer todas las lecturas
+	Muestra el arbol minimo correspondiente al tiempo de siesta entre lecturas y el tiempo total que llevaria leer todas las lecturas. En caso de crear un camino lo muestra en forma de lista
+	de lo contrario en forma de grafo.
+
+
+14. Salir
+	Limpia la pantalla y sale del programa.
+	
