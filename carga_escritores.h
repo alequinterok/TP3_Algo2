@@ -14,20 +14,26 @@ private:
     Diccionario* diccionario_escritores;
 
 //metodos
+
+    // Pre: -
+    // Post: Crea una lista de escritores
+    void crear_escritor();
+    
+    // Pre: isni_bruto debe tener el isni
+    // Post: Devuelve el isni en un formato adecuado
+    int identificar_isni (string isni_bruto);
+
 public:
     // Pre:
     // Post: Constructor de la clase carga_escritores
     Carga_escritores(string nombre_archivo);
 
-    int identificar_isni (string isni_bruto);
+
 
     // Pre:
     // Post: Carga una lista de escritores
     void cargar_diccionario(string nombre_archivo);
 
-    // Pre: -
-    // Post: Crea una lista de escritores
-    void crear_escritor();
 
     // Pre: -
     // Post: Devuelve la lista de escritores

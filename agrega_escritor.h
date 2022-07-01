@@ -16,10 +16,6 @@ protected:
 
 
 //Métodos
-public:
-    // Pre: -
-    // Post: Constructor de la clase
-    Agrega_escritor(Lista<Lectura>* lecturas, Diccionario* escritores);
 
     // Pre: -
     // Post: asigna el nombre ingresado por el usuario
@@ -48,6 +44,12 @@ public:
     // Pre: -
     // Post: Devuelve un puntero a un escritor nuevo creado por el usuario
     Escritor* nuevo_escritor();
+
+public:
+    // Pre: -
+    // Post: Constructor de la clase
+    Agrega_escritor(Lista<Lectura>* lecturas, Diccionario* escritores);
+
 
     // Pre: -
     // Post: Ejecuta la opción.

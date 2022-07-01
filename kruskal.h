@@ -18,11 +18,6 @@ private:
     Lista<Arista>*  aristas;
     int primero;
 
-public:
-    // Pre: La lista y la matriz existen y deben estar cargadas con la informacion del grafo
-    // Post: Constructor de la clase Kruskal
-    Kruskal(int**, Lista<Vertice>*);
-
     // Pre: -
     // Post: Carga las aristas de menor a mayor
     void cargar_aristas();
@@ -40,14 +35,6 @@ public:
     Posicion buscar_vertice(int vertice);
 
     // Pre: -
-    // Post: Busca el arbol minimo
-    void buscar_arbol_minimo();
-
-    // Pre: -
-    // Post: Devuelve el arbol minimo
-    Grafo* obtener_arbol_minimo();
-
-    // Pre: -
     // Post: Calcula los minutos totales que se tarda en leer todas las lecturas y los devuelve
     int calcular_peso();
 
@@ -55,10 +42,25 @@ public:
     // Post: Devuelve true si es una lista
     bool es_lista();
 
+
+public:
+    
+    // Pre: La lista y la matriz existen y deben estar cargadas con la informacion del grafo
+    // Post: Constructor de la clase Kruskal
+    Kruskal(int**, Lista<Vertice>*);
+    
     // Pre: -
     // Post: Muestra la lista si es y si no devuelve que no es una lista y muestra el arbol
     void mostrar();
+   
+    // Pre: -
+    // Post: Busca el arbol minimo
+    void buscar_arbol_minimo();
 
+    // Pre: -
+    // Post: Devuelve el arbol minimo
+    Grafo* obtener_arbol_minimo();
+    
     // Pre: -
     // Post: Destructor de la clase arbol
     ~Kruskal();

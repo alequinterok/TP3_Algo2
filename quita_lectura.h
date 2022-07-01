@@ -11,10 +11,6 @@ private:
     int posicion;
 
 //Métodos
-public:
-    // Pre: -
-    // Post: Constructor de la clase
-    Quita_lectura(Lista<Lectura>* lecturas, Diccionario* escritores);
 
     // Pre: -
     // Post: Pide al usuario que ingrese lo que esta en tipo hasta que el ingreso sea válido.
@@ -28,11 +24,14 @@ public:
     //Post: True si si confirma que se quiere quitar la lectura, False si no.
     bool confirmacion();
 
+public:
+    // Pre: -
+    // Post: Constructor de la clase
+    Quita_lectura(Lista<Lectura>* lecturas, Diccionario* escritores);
+
     // Pre: -
     // Post: Ejecuta la opción.
     void ejecutar_opcion() override;
-
-
 };
 
 

@@ -13,10 +13,6 @@ private:
     int publicacion;
 
 //Métodos
-public:
-    // Pre: -
-    // Post: Constructor de la clase
-    Agrega_lectura(Lista<Lectura>* lecturas, Diccionario* escritores);
 
     // Pre:
     // Post: Devuelve true si el tipo es CUENTO o POEMA o NOVELA, devuelve false en caso contrario
@@ -54,6 +50,12 @@ public:
     //Post: Crea una nueva lectura de tipo novela
     void tipo_novela();
 
+public:
+
+    // Pre: -
+    // Post: Constructor de la clase
+    Agrega_lectura(Lista<Lectura>* lecturas, Diccionario* escritores);
+    
     // Pre: -
     // Post: Ejecuta la opción.
     void ejecutar_opcion() override;
